@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>
+            Paint
+        </title>
+        <style>
+            body {
+                background-image: url("Canvasbg1.jpg");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+            #canvas {
+                background-color: white;
+                border-style: outset;
+                border-width: 10px;
+                position: absolute;
+                top: 19%;
+                left: 22%;
+            }
+            div {
+                padding: 5%;
+                padding-top: 8%;
+            }
+            input {
+                border-style: groove;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <canvas id="canvas" height="400" width="880">
+        </canvas><div><label>Radii- </label><input id="radii" type="number" value="20" placeholder="Type here"></div><div><label>Color- </label><input id="color" type="text" value="red" placeholder="Type here"></div><div><label>Width- </label><input id="width" type="number" value="3" placeholder="Type here"></div>
+        <script src="main.js"></script>
+    </body>
+</html>
